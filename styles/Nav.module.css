@@ -1,0 +1,26 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.123);
+}
+.nav__img {
+  height: 45px;
+}
+.nav__linkContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+.nav__link {
+  list-style: none;
+  margin: 0rem 1rem;
+  text-transform: uppercase;
+  font-size: small;
+}
+.nav__iconsContainer {
+  display: flex;
+  align-items: center;
+}
